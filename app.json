@@ -1,39 +1,38 @@
 {
   "expo": {
-    "name": "Estoril Esportes",
-    "slug": "estorilesportes",
-    "version": "1.0.3",
+    "name": "BrasilCNB",
+    "slug": "brasilcnb",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#FC6405"
+      "backgroundColor": "#FF7227"
     },
     "androidNavigationBar": {
       "barStyle": "light-content",
-      "backgroundColor": "#FC6405"
+      "backgroundColor": "#FF7227"
     },
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/ff112dc6-dc99-47e4-8579-d795bf9e68c8"
+      "url": "https://u.expo.dev/04a5aab4-5c5e-4f28-b264-6707793309a3"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "android": {
-      "versionCode": 3,
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#FC6405",
-        "backgroundImage": "./assets/icon.png"
+        "backgroundColor": "#FF7227"
       },
-      "package": "com.sporti.estorilesportes",
+      "package": "com.sporti.brasilcnb",
       "permissions": []
     },
     "ios": {
-      "buildNumber": "3",
-      "bundleIdentifier": "com.sporti.estorilesportes",
+      "buildNumber": "1",
+      "bundleIdentifier": "com.sporti.brasilcnb",
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
@@ -41,6 +40,14 @@
       }
     },
     "entryPoint": "node_modules/expo/AppEntry.js",
-    "description": ""
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "04a5aab4-5c5e-4f28-b264-6707793309a3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }
